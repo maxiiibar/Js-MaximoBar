@@ -1,0 +1,61 @@
+/*     font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #141c29;
+    padding-top: 80px;
+}
+.productos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.imagen{
+    width: 320px;
+    height: 340px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+.card{
+    width: 320px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: #2D4263;
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: #11294d;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+.informacio h2{
+    font-size: 5px;
+}
+.informacion p{
+    font-size: 12px;
+    font-weight: 300;
+}
