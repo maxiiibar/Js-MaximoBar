@@ -119,3 +119,8 @@ const generarTarjetas = (vector, contenedor) =>{
 }
 
 generarTarjetas(productos, cardContainer)
+
+const header = document.querySelector("header")
+const contenedor = document.querySelector(".productos-container")
+
+window.addEventListener("scroll", () => contenedor.getBoundingClientRect().top<10 ? header.classList.add("scroll") : header.classList.remove("scroll"))

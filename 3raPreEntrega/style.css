@@ -9,7 +9,31 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #141c29;
-    padding-top: 80px;
+    padding-top: 100px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.scroll{
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+.scroll i{
+    color: #141c29;
+}
+.scroll h1{
+    color: #141c29;
+}
+.carrito{
+    width: 45px;
+    height: auto;
 }
 .productos-container{
     display: flex;
@@ -18,6 +42,7 @@ body{
     gap: 50px;
     margin-bottom: 20px;
 }
+
 .imagen{
     width: 320px;
     height: 340px;
