@@ -100,11 +100,17 @@ const generarTarjetas = (vector, contenedor) =>{
                 <img src="./img/${item.imagen}">
             </div>
             <div class="informacion">
-                <h2>${ item.producto + " " + item.marca}</h2>
-				<p>Categoria: ${item.categoria}</p>
-				<p>Descripción: ${item.descripcion}</p>
-				<p>Precio: $${item.precio}</p>
-                <button>Añadir al Carrito</button>
+                <div class="titulo">
+                    <h2>${ item.producto + " " + item.marca}</h2>
+                </div>
+                <div class="descripcion">
+                    <p>Categoria: ${item.categoria}</p>
+                    <p>Descripción: ${item.descripcion}</p>
+                    <p>Precio: $${item.precio}</p>
+                </div>
+                <div class="boton">
+                    <button>Añadir al Carrito</button>
+                </div>
 			</div>
         </div>
         `
