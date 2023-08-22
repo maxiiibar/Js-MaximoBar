@@ -20,7 +20,7 @@ const productos = [
     {
         id: 3,
         producto: "SSD",
-        categoria: "Almacenamiento",
+        categoria: null,
         precio: 89.99,
         marca: "Samsung",
         imagen: "ssd.webp",
