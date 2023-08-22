@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/cart.css">
     <!-- Fuente 1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +17,7 @@
   <body>
     <header>
       <nav>
-        <a href="./index.html"><h1>Shopping Car</h1></a>
+        <a href="./index.html"><h1>Shopping Cart</h1></a>
         <a href="./cart.html"
           ><i class="fa-sharp fa-solid fa-cart-shopping fa-xl"
             ><span id="cuenta-carrito">0</span></i
@@ -25,11 +26,20 @@
       </nav>
     </header>
     <main>
-      <div class="productos-container"></div>
+      <p id="carrito-vacio">Ups! No hay productos en el carrito. <a href="./index.html">Agrega algunos</a></p>
+      <section class="productos-container-carrito"></section>
+      <section class="totales">
+        <p>Total unidades: <span id="unidades">0</span></p>
+        <p>Total precio: $<span id="precio">0</span></p>
+        <div class="botones">
+          <button disabled>Comprar</button>
+          <button id="reiniciar">Reinciar carrito</button>
+        </div>
+      </section>
     </main>
 
-    <script src="productos.js"></script>
-    <script src="index.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/cartService.js"></script>
     <script
       src="https://kit.fontawesome.com/ef84cedd25.js"
       crossorigin="anonymous"

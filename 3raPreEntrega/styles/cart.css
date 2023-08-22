@@ -1,0 +1,114 @@
+.productos-container-carrito{
+    width: 500px;
+    margin: auto;
+}
+.card-carrito{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-carrito h3{
+    color:#141c29;
+    width: 130px;
+}
+.card-carrito img{
+    height: 15px;
+}
+.imagen-carrito{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-carrito img{
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+button{
+    background-color: #141c29;
+    color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p, span{
+    color: #141c29;
+}
+header{
+    background-color: white;
+}
+nav a i{
+    color: #141c29;
+}
+nav a h1{
+    color: #141c29;
+}
+#cuenta-carrito {
+    background-color:#141c29;
+    color: white;
+}
+.scroll{
+    background-color:#141c29;
+    box-shadow: .1rem .2rem .3rem black;
+}
+.scroll i{
+    color: white;
+}
+.scroll h1{
+    color: white;
+}
+.scroll span{
+    background-color: white;
+    color: white;
+}
+.scroll #cuenta-carrito{
+    background-color: white;
+    color: #141c29;
+}
+.totales{
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.totales p, .totales span{
+    color: white;
+}
+
+.botones{
+    margin-top: 20px;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+.botones button{
+    background-color: white;
+    color: #141c29;
+    width: 75px;
+    height: 40px;
+}
+#carrito-vacio{
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+#carrito-vacio a{
+    text-decoration: underline;
+}
+
+.escondido{
+    display: none;
+}
